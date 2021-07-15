@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    position: relative;
+    background-color: #A8DFEC;
+    height: 840px;
+}
+
+
+/* INICIO - ESTILOS DEL HEADER CON FLEX */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgray;
+    height: 50px;
+}
+.header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    margin: auto 20px;
+    color: black;
+    cursor: pointer;
+} 
+/* BARRA DE NAVEGACION */
+nav a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin: auto 10px;
+    color: black;
+} 
+nav a:hover, .header h1:hover {
+    color: blue;
+    text-shadow: 1px 1px 1px blue;
+}
+/* FIN - ESTILOS DEL HEADER CON FLEX */
+
+
+/* INICIO - ESTILOS DE LA SECCION 1 */
+/* TITULO */
+.section1 h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+/* TABLA */
+.section1 table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px auto;
+}
+table th {
+    background-color: #0D9FBF;
+    color: white;
+}
+table td {
+    background-color: #E2EEF1;
+    color: black;
+}
+table th , td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+/* FIN - ESTILOS DE LA SECCION 1 */
+
+
+/* INICIO - ESTILOS DE SECCION 2 CON FLEX */
+.section2 {
+    display: flex;
+    justify-content: center;
+}
+.div1, .div2, .div3 {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+.div1 {
+    background-color: green;
+}
+.div2 {
+    background-color: yellow;
+}
+.div3 {
+    background-color: red;
+}
+/* FIN - ESTILOS DE SECCION 2 CON FLEX */
+
+
+/* INICIO - ESTILOS DEL FOOTER */
+.footer {
+    text-align: center;
+    padding: 12px;
+    background-color: rgba(6, 71, 87, 0.7);
+}
+.footer .data *{
+    display: inline-block;
+    margin: auto 12px;
+}
+/* FIN - ESTILOS DEL FOOTER */
