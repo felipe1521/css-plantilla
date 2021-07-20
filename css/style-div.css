@@ -1,11 +1,12 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 .main {
     position: relative;
     background-color: #A8DFEC;
-    height: 840px;
+    height: 100vh;
 }
 
 
@@ -14,14 +15,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: darkgray;
-    height: 50px;
+    background-color: #333;
+    height: 60px;
 }
 .header h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 32px;
     margin: auto 20px;
-    color: black;
+    color: aquamarine;
     cursor: pointer;
 } 
 /* BARRA DE NAVEGACION */
@@ -30,7 +31,7 @@ nav a {
     font-size: 18px;
     text-decoration: none;
     margin: auto 10px;
-    color: black;
+    color: aquamarine;
 } 
 nav a:hover, .header h1:hover {
     color: blue;
@@ -69,7 +70,7 @@ table th , td {
 /* FIN - ESTILOS DE LA SECCION 1 */
 
 
-/* INICIO - ESTILOS DE SECCION 2 CON FLEX */
+/* INICIO - ESTILOS DE SECCION 2 y 3 CON FLEX */
 .section2 {
     display: flex;
     justify-content: center;
@@ -91,6 +92,41 @@ table th , td {
 }
 /* FIN - ESTILOS DE SECCION 2 CON FLEX */
 
+.section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+.formulario {
+    width: 30%;
+    text-align: center;
+    background-color: rgba(19, 21, 43, 0.7);
+    border-radius: 8px;
+}
+
+.formulario div{
+    padding: 15px;
+    color: deepskyblue;
+}
+.formulario input, button {
+    background-color: #333;
+    color: deepskyblue;
+    width: 100%;
+    height: 40px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 18px;
+
+}
+.formulario input:hover, button:hover {
+    transition: 0.6s;
+    background-color: deepskyblue;
+    color: #333;
+}
+input {
+    padding-left: 20px;
+}
 
 /* INICIO - ESTILOS DEL FOOTER */
 .footer {
